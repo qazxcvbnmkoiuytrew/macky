@@ -63,4 +63,4 @@ Common Issues
 Licensing Note
 - MediaPipe models and sample references follow their respective licenses. See Google MediaPipe documentation for details.
 
-
+Android資料夾內為官方示範程式碼
