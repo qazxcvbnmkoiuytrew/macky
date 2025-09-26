@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication3">
+
+    <!-- 相機權限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera.front" android:required="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="馬偕復健"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MackayRehab">
+
+        <!-- 主畫面 -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- 設定頁面 -->
+        <activity android:name=".SettingsActivity"/>
+
+        <!-- 動作設定頁面 -->
+        <activity android:name=".ActionSettingsActivity"/>
+
+        <!-- 示範影片頁面 -->
+        <activity android:name=".DemoActivity"/>
+
+        <!-- 個別動作頁面 -->
+        <activity android:name=".IndividualActionsActivity"/>
+
+        <!-- 錄影頁面 -->
+        <activity android:name=".RecordActivity"/>
+
+    </application>
+
+</manifest>

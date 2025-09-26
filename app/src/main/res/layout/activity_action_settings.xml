@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/titleActionSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="動作設定"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp"/>
+
+        <CheckBox
+            android:id="@+id/cbKnee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="雙膝交互抬高"/>
+
+        <CheckBox
+            android:id="@+id/cbSquat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="深蹲"/>
+
+        <CheckBox
+            android:id="@+id/cbHeelToe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="腳跟對腳尖"/>
+
+        <CheckBox
+            android:id="@+id/cbStep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="左右跨步"/>
+
+        <CheckBox
+            android:id="@+id/cbToeStand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="顛腳尖站立"/>
+
+        <Button
+            android:id="@+id/buttonSaveActions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="儲存選擇"
+            android:layout_marginTop="32dp"/>
+    </LinearLayout>
+
+</ScrollView>
